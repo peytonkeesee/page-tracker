@@ -28,4 +28,4 @@ def test_should_handle_redis_connection_error(mock_redis, http_client):
     response = http_client.get("/")
 
     # Then
-    assert response.status_code == 500
+    assert response.status_code == 5001
